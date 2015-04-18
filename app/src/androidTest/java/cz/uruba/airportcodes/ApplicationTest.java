@@ -24,7 +24,7 @@ public class ApplicationTest extends ApplicationTestCase<Application> {
 
         String testColumnAlias = "COLUMN_TEST_ID";
         String testColumnName = "test_id";
-        testDescriptor.addColumn(testColumnAlias, testColumnName);
+       // testDescriptor.addColumn(testColumnAlias, testColumnName);
         assertEquals(testDescriptor.getColumnName(testColumnAlias), testColumnName);
 
         assertEquals(ContentProviderContracts.AirportsContract.DB_AIRPORTS.getColumnName("COLUMN_ID"), "id");
